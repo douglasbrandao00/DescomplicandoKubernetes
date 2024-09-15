@@ -204,7 +204,7 @@ nginx-deployment-78cd4b8fd-r4zk8   1/1     Running   0          5s
 Para verificar os Pods que o Deployment está gerenciando nós precisamos executar o seguinte comando:
 
 ```bash
-kubectl get pods -l app=nginx
+kubectl get pods -l app=nginx-deployment
 ```
 
 O resultado será o seguinte:
